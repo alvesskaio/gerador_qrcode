@@ -1,0 +1,12 @@
+{
+  "name": "gerador-qrcode",
+  "version": "1.0.0",
+  "description": "Gera um QR code em PNG a partir de um texto passado por argumento.",
+  "main": "gerar_qrcode.js",
+  "bin": {
+    "gerar_qrcode": "gerar_qrcode.js"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.4"
+  }
+}
